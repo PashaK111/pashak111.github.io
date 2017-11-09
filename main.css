@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    
+	margin: 0px;
+	padding: 0px;
+
+
+}
+.container {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+}
+.main-block {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    animation-name: closeBlock;
+}
+.first-block  {
+    margin: 0px;
+    padding: 0px;
+    height: 25vh;
+    width: 100%;
+    background: black;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+}
+.second-block {
+    height: 25vh;
+    width: 100%;
+    background: black;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+}
+.third-block {
+    height: 10vh;
+    width: 100%;
+    background: black;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+}
+.fourth-block {
+    height: 40vh;
+    width: 100%;
+    background: black;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-name: slideInUp;
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: hidden;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+}
+@keyframes closeBlock {
+  from {
+    opacity: 1;
+    }
+
+  to {
+    opacity: 0;
+
+    }
+}
+.center-name {
+    font-family: 'Anton', sans-serif;
+    z-index: 20;
+    position: absolute;
+    top: 49%;
+    left: 45%;
+    font-size: 2.2em;
+    font-weight: bold;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-name: ColorChange;
+}
+@keyframes ColorChange {
+  from {
+    color: black;
+  }
+
+  to {
+    color: white;
+  }
+}
+.main-deskop {
+    position: absolute;
+    top: 0vh;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background: url(http://www.wallpaperup.com/uploads/wallpapers/2014/09/16/443942/5b6fa78f0806bdefcc016b593a446281.jpg) no-repeat center;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    animation-duration: 1.5s;
+    animation-delay: 4.7s;
+    animation-fill-mode: both;
+    animation-name: ThemeChange;
+}
+@keyframes ThemeChange {
+     from {
+    opacity: 0;
+    transform: scale3d(1.06, 1.06, 1.06);
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+.column_1 {
+    
+    display: inline-block;
+    width: 20%;
+    border-right: 1px solid white;
+    height: 100vh;
+    animation-duration: .8s;
+    animation-delay: 5.3s;
+    animation-fill-mode: both;
+    animation-name: slideInDown;
+}
+.column_2 {
+        
+    display: inline-block;
+    left: 20%;
+    width: 20%;
+    border-right: 1px solid white;
+    height: 100vh;
+    animation-duration: .8s;
+    animation-delay: 5.4s;
+    animation-fill-mode: both;
+    animation-name: slideInDown;
+}
+.column_3 {
+     
+    display: inline-block;
+    width: 20%;   
+    border-right: 1px solid white;
+    height: 100vh;
+    animation-duration: .8s;
+    animation-delay: 5.5s;
+    animation-fill-mode: both;
+    animation-name: slideInDown;
+}
+.column_4 {
+     
+    display: inline-block;
+    width: 19%;    
+    border-right: 1px solid white;
+    height: 100vh;
+    animation-duration: .8s;
+    animation-delay: 5.6s;
+    animation-fill-mode: both;
+    animation-name: slideInDown;
+}
+.column_5 {
+    display: inline-block;
+    width: 19%;    
+    height: 100vh;
+    animation-duration: .8s;
+    animation-delay: 5.7s;
+    animation-fill-mode: both;
+    animation-name: slideInDown;
+}
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.word1-1,
+.word2-1 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    color: white;
+    margin-left: 10px;
+    font-weight: normal;
+    width: 100%;
+    top: 59vh;
+    font-size: 12em;
+    animation-duration: .2s;
+    animation-delay: 6.4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    
+}
+.word1-2,
+.word2-2 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    color: white;
+    margin-left: 10px;
+    font-weight: normal;
+    width: 100%;
+    top: 60vh;
+    font-size: 13em;
+    animation-duration: .2s;
+    animation-delay: 6.6s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    
+}
+.word1-3,
+.word2-3 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    color: white;
+    margin-left: 10px;
+    font-weight: normal;
+    width: 100%;
+    top: 60vh;
+    font-size: 14em;
+    animation-duration: .2s;
+    animation-delay: 6.8s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    
+}
+.word1-4,
+.word2-4 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    color: white;
+    margin-left: 10px;
+    font-weight: normal;
+    width: 100%;
+    top: 61vh;
+    font-size: 15em;
+    animation-duration: .2s;
+    animation-delay: 7s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+    
+}
+.word1-5,
+.word2-5 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    color: white;
+    margin-left: 10px;
+    
+    font-size: 15em;
+    width: 100%;
+    top: 63vh;
+    animation-duration: .1s;
+    animation-delay: 7.2s;
+    animation-fill-mode: both;
+    
+    animation-name: fadeInStop;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+    opacity: 0;
+    
+  }
+}
+@keyframes fadeInStop {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    
+  }
+}
+
+
+
+.column_4 .text4 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 50vh;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    animation-duration: .1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: both;
+    
+    animation-name: fadeInStop; 
+}
+.column_5 .text5 {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    top: 50vh;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    animation-duration: .1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: both;
+    
+    animation-name: fadeInStop; 
+}
+@media (max-width: 399px) { 
+    .word1-1,
+    .word2-1 {
+        top: 69vh;
+        font-size: 1em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 70vh;
+        font-size: 2em;
+    }
+    .word1-3,
+    .word2-3 {
+        width: 100%;
+        top: 72vh;
+        font-size: 3em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 73vh;
+        font-size: 4em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 5em;
+        top: 75vh;
+    }
+    .column_4 .text4 {
+        font-size: 0.7em;
+    }
+    .column_5 .text5 {
+        font-size: 0.7em;
+    }
+    .center-name {
+        font-size: 0.7em;
+    }
+}
+@media (min-width: 400px) and (max-width: 499px) { 
+    .word1-1,
+    .word2-1 {
+        top: 69vh;
+        font-size: 2em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 70vh;
+        font-size: 3em;
+    }
+    .word1-3,
+    .word2-3 {
+        width: 100%;
+        top: 72vh;
+        font-size: 4em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 73vh;
+        font-size: 5em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 7em;
+        top: 75vh;
+    }
+    .column_4 .text4 {
+        font-size: 0.7em;
+    }
+    .column_5 .text5 {
+        font-size: 0.7em;
+    }
+    .center-name {
+        font-size: 1em;
+    }
+}
+@media (min-width: 500px) and (max-width: 599px) { 
+    .word1-1,
+    .word2-1 {
+        top: 69vh;
+        font-size: 4em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 70vh;
+        font-size: 5em;
+    }
+    .word1-3,
+    .word2-3 {
+        width: 100%;
+        top: 72vh;
+        font-size: 6em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 73vh;
+        font-size: 7em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 9em;
+        top: 75vh;
+    }
+    .column_4 .text4 {
+        font-size: 0.8em;
+    }
+    .column_5 .text5 {
+        font-size: 0.8em;
+    }
+    .center-name {
+        font-size: 1.5em;
+    }
+}
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 600px) and (max-width: 699px) { 
+    .word1-1,
+    .word2-1 {
+        top: 65vh;
+        font-size: 7em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 66vh;
+        font-size: 8em;
+    }
+    .word1-3,
+    .word2-3 {
+        width: 100%;
+        top: 67vh;
+        font-size: 9em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 68vh;
+        font-size: 10em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 11em;
+        top: 70vh;
+    }
+    .column_4 .text4 {
+        font-size: 0.8em;
+    }
+    .column_5 .text5 {
+        font-size: 0.8em;
+    }
+    .center-name {
+        font-size: 1.5em;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 700px) and (max-width: 799px) { 
+    .word1-1,
+    .word2-1 {
+        top: 63vh;
+        font-size: 9em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 64vh;
+        font-size: 10em;
+    }
+    .word1-3,
+    .word2-3 {
+        top: 65vh;
+        font-size: 11em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 66vh;
+        font-size: 12em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 12em;
+        top: 66vh;
+    }
+    .column_4 .text4 {
+        font-size: 1em;
+    }
+    .column_5 .text5 {
+        font-size: 1em;
+    }
+    .center-name {
+        font-size: 1.6em;
+    }
+}
+}
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 1000px) and (max-width: 1099px) { 
+    .word1-1,
+    .word2-1 {
+        top: 55vh;
+        font-size: 12em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 56vh;
+        font-size: 13em;
+    }
+    .word1-3,
+    .word2-3 {
+        top: 57vh;
+        font-size: 14em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 58vh;
+        font-size: 15em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 18em;
+        top: 63vh;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 1100px) and (max-width: 1199px){ 
+    .word1-1,
+    .word2-1 {
+        top: 55vh;
+        font-size: 13em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 56vh;
+        font-size: 14em;
+    }
+    .word1-3,
+    .word2-3 {
+        top: 57vh;
+        font-size: 15em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 58vh;
+        font-size: 16em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 17em;
+        top: 60vh;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1599px) { 
+    .word1-1,
+    .word2-1 {
+        top: 55vh;
+        font-size: 13em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 56vh;
+        font-size: 14em;
+    }
+    .word1-3,
+    .word2-3 {
+        top: 57vh;
+        font-size: 15em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 58vh;
+        font-size: 16em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 18em;
+        top: 58vh;
+    }
+}
+@media (min-width: 1600px) { 
+    .word1-1,
+    .word2-1 {
+        top: 51vh;
+        font-size: 15em;
+    }
+    .word1-2,
+    .word2-2 {
+        top: 52vh;
+        font-size: 16em;
+    }
+    .word1-3,
+    .word2-3 {
+        top: 53vh;
+        font-size: 17em;
+        
+    }
+    .word1-4,
+    .word2-4 {
+        top: 54vh;
+        font-size: 19em;
+    }
+    .word1-5,
+    .word2-5 {
+        font-size: 20em;
+        top: 52vh;
+    }
+}
+
