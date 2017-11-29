@@ -1,61 +1,475 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Parallax</title>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/linea/styles.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<header class="main_head" id="home" data-parallax="scroll" data-image-src="img/main-backgr.jpg" data-z-index="1">
+		<div class="container">
+			<div class="col-md-12">
+				<div class="logo_site"></div>
+					<button class="menu_btn">			
+						  <span class="sw_topper"></span>
+						  <span class="sw_bottom"></span>
+						  <span class="sw_footer"></span>	
+					</button>
+					<nav class="top_menu">
+						<ul>
+							<li><a href="#home">HOME</a></li>
+							<li><a href="#menu">MENU</a></li>
+							<li><a href="#blog">BLOG</a></li>
+							<li><a href="#contacts">CONTACTS</a></li>
+						</ul>
+					</nav>	
+				</div>
+			</div>
+		</div>
+		<div class="site_name">
+			<h1 class="fadeInLeft animated">HOME</h1>
+			<h1 class="fadeInRight animated">CAFE</h1>
+			<div class="discription fadeInDownBig animated">Meat & Fish</div>
+		</d	iv>
+	</header>
+	<section class="portfolio-section wow grid" id="menu" data-wow-offset="1"  data-wow-duration="1s">
+		<div class="menu_meat">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture_meat_1 picture1 fadeIn animated">
+					<div class="menu_cost1 fadeInLeft animated">
+						<h1>Slats</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture_meat_2 picture2 fadeIn animated">
+					<div class="menu_cost2 fadeInLeft animated">
+						<h1>Chicken</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture_meat_3 picture3 fadeIn animated">
+					<div class="menu_cost3 fadeInLeft animated">
+						<h1>Lard</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture_meat_4 picture4 fadeIn animated">
+					<div class="menu_cost1 fadeInRight animated">
+						<h1>Wings</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture_meat_5 picture5 fadeIn animated">
+					<div class="menu_cost2 fadeInRight animated">
+						<h1>Necks</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture_meat_6 picture6 fadeIn animated">
+					<div class="menu_cost3 fadeInRight animated">
+						<h1>Bacon pie</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_sushi">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture1 picture_sushi_1 fadeIn animated">
+					<div class="menu_cost1 slideInLeft animated">
+						<h1>Fukodo</h1>
+						<h2>500gramm 10$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture2 picture_sushi_2 fadeIn animated">
+					<div class="menu_cost2 slideInLeft animated">
+						<h1>Sigacu</h1>
+						<h2>400gramm 9$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture3 picture_sushi_3 fadeIn animated">
+					<div class="menu_cost3 slideInLeft animated">
+						<h1>Akiami</h1>
+						<h2>700gramm 12$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture4 picture_sushi_4 fadeIn animated">
+					<div class="menu_cost1 slideInRight animated">
+						<h1>Hidecki</h1>
+						<h2>400gramm 10$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture5 picture_sushi_5 fadeIn animated">
+					<div class="menu_cost2 slideInRight animated">
+						<h1>Banzai</h1>
+						<h2>800gramm 15$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture6 picture_sushi_6 fadeIn animated">
+					<div class="menu_cost3 slideInRight animated">
+						<h1>Ovara</h1>
+						<h2>600gramm 10$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_salads">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture1 picture_salads_1 fadeIn animated">
+					<div class="menu_cost1 slideInLeft animated">
+						<h1>Athena</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture2 picture_salads_2 fadeIn animated">
+					<div class="menu_cost2 slideInLeft animated">
+						<h1>Poe</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture3 picture_salads_3 fadeIn animated">
+					<div class="menu_cost3 slideInLeft animated">
+						<h1>Pomona</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture4 picture_salads_4 fadeIn animated">
+					<div class="menu_cost1 slideInRight animated">
+						<h1>Caesar</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture5 picture_salads_5 fadeIn animated">
+					<div class="menu_cost2 slideInRight animated">
+						<h1>Greck</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture6 picture_salads_6 fadeIn animated">
+					<div class="menu_cost3 slideInRight animated">
+						<h1>Athena</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_burgers">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture1 picture_burgers_1 fadeIn animated">
+					<div class="menu_cost1 slideInLeft animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture2 picture_burgers_2 fadeIn animated">
+					<div class="menu_cost2 slideInLeft animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture3 picture_burgers_3 fadeIn animated">
+					<div class="menu_cost3 slideInLeft animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture4 picture_burgers_4 fadeIn animated">
+					<div class="menu_cost1 slideInRight animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture5 picture_burgers_5 fadeIn animated">
+					<div class="menu_cost2 slideInRight animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture6 picture_burgers_6 fadeIn animated">
+					<div class="menu_cost3 slideInRight animated">
+						<h1>Burger</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_pizza">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture1 picture_pizza_1 fadeIn animated">
+					<div class="menu_cost1 slideInLeft animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture2 picture_pizza_2 fadeIn animated">
+					<div class="menu_cost2 slideInLeft animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture3 picture_pizza_3 fadeIn animated">
+					<div class="menu_cost3 slideInLeft animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture4 picture_pizza_4 fadeIn animated">
+					<div class="menu_cost1 slideInRight animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture5 picture_pizza_5 fadeIn animated">
+					<div class="menu_cost2 slideInRight animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture6 picture_pizza_6 fadeIn animated">
+					<div class="menu_cost3 slideInRight animated">
+						<h1>Pizza</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu_cakes">
+			<button class="closeBtn">
+				<span class="line_topper"></span>
+				<span class="line_bottom"></span>
+			</button>
+			<div class="menu_order_left">
+				<div class="portfolio-pict picture1 picture_cakes_1 fadeIn animated">
+					<div class="menu_cost1 slideInLeft animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture2 picture_cakes_2 fadeIn animated">
+					<div class="menu_cost2 slideInLeft animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture3 picture_cakes_3 fadeIn animated">
+					<div class="menu_cost3 slideInLeft animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>	
+			<div class="menu_order_right">	
+				<div class="portfolio-pict picture4 picture_cakes_4 fadeIn animated">
+					<div class="menu_cost1 slideInRight animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture5 picture_cakes_5 fadeIn animated">
+					<div class="menu_cost2 slideInRight animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>	
+				<div class="portfolio-pict picture6 picture_cakes_6 fadeIn animated">
+					<div class="menu_cost3 slideInRight animated">
+						<h1>Cake</h1>
+						<h2>200gramm 5$</h2>
+						<button>BUY</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+		<div class="portfolio-item grid wow image1 fadeIn animated" ><button class="meat_btn">Meat</button></div>	
+		<div class="portfolio-item grid wow image2 fadeIn animated" data-wow-offset="1" data-wow-delay="0.6s" data-wow-duration="1s"><button class="sushi_btn">Sushi</button></div>	
+		<div class="portfolio-item grid wow image3 fadeIn animated" data-wow-offset="1" data-wow-delay="0.9s" data-wow-duration="1s"><button class="salads_btn">Salads</button></div>	
+		<div class="portfolio-item grid wow image4 fadeIn animated" data-wow-offset="1" data-wow-delay="1.2s" data-wow-duration="1s"><button class="burgers_btn">Burgers</button></div>	
+		<div class="portfolio-item grid wow image5 fadeIn animated" data-wow-offset="1" data-wow-delay="1.5s" data-wow-duration="1s"><button class="pizza_btn">Pizza</button></div>	
+		<div class="portfolio-item grid wow image6 fadeIn animated" data-wow-offset="1" data-wow-delay="1.7s" data-wow-duration="1s"><button class="cakes_btn">Cakes</button></div>	
+				
+	</section>
+	<section class="blog-posts grid" id="blog" data-parallax="scroll" data-image-src="img/blog_bgr.jpg" data-z-index="15">
+		<div class="description_blog grid">
+			<h1 class="wow animated fadeIn">OUR BLOG</h1>
+			<p class="wow animated fadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+			</p>
+		</div>
+	
+			<div class="post post_1 grid wow animated fadeIn">
+				<h2>Post text</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<button>READ MORE</button>
+			</div>
+			<div class="post post_2 grid wow animated fadeIn">
+				<h2>Post text</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<button>READ MORE</button>
+			</div>
+			<div class="post post_3 grid wow animated fadeIn">
+				<h2>Post text</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+				<button>READ MORE</button>
+			</div>
+		
+	</section>
+	<section class="contacts grid wow" id="contacts" data-parallax="scroll" data-image-src="img/image_bgr.jpg" data-z-index="20"  data-wow-offset="10"  data-wow-duration="1s">
+		
+		<img src="img/keyboard_3.png" class="keyboard_1">
+		<img src="img/mouse_1.png" class="mouse_1">
+			
+		
+		<div class="contacts_text grid wow animated fadeIn">
+			<h1>CONTACT US</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<form class="form_box grid wow fadeInLeft animated" data-wow-offset="100"  data-wow-duration="1s">
+			<div class="form_inputs wow grid">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-        <div class="main-block">
-          <div class="center-name">ANTONY SHO</div>
-          <div class="first-block"></div>
-          <div class="second-block"></div>
-          <div class="third-block"></div>
-          <div class="fourth-block"></div>
-        </div>  
-    </div>
-    <div class="main-deskop">
-        <div class="column_1">
-          <div class="word1-1">HuavUf</div>
-          <div class="word1-2">FsytSd</div>
-          <div class="word1-3">Boupoz</div>
-          <div class="word1-4">Cpvqpa</div>
-          <div class="word1-5">ANTONY</div>
-        </div>
-        <div class="column_2">
-          <div class="word2-1">Xmt</div>
-          <div class="word2-2">Rwy</div>
-          <div class="word2-3">Zov</div>
-          <div class="word2-4">Tip</div>
-          <div class="word2-5">SHO</div>
-        </div>
-        <div class="column_3">
-          
-        </div>
-        <div class="column_4">
-          <div class="text4">ART DIRECTION<br> DESIGN</div>
-        </div>
-        <div class="column_5">
-          <div class="text5">ABOUT</div>
-        </div>
-      </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    </body>
+				<input type="name" id="name1" placeholder="NAME :" data-validation-required-message="Please, enter your name correct">
+
+				<input type="number" id="phone1" placeholder="PHONE :" data-validation-number-message="Please, enter your phone correct">
+
+				<input type="email" id="email1" placeholder="E-MAIL :" data-validation-email-message="Please, enter your email correct">
+
+				<textarea rows="5" cols="45" id="text1" placeholder="COMMENT :"></textarea>
+
+				<br>
+				<input type="submit" id="submit1" value="SEND">				
+			</div>	
+		</form>
+		<div class="grid google_map wow fadeInRight animated" data-wow-offset="10"  data-wow-duration="1s" data-wow-delay="1s">	
+			<iframe class="wow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d133962.5020241565!2d36.08108865391979!3d50.046116688340994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1511197560381"></iframe>
+		</div>
+	</section>
+	<footer class="grid">
+		<div class="grid icon_vb wow animated fadeIn">
+			<img src="img/vb.png">
+			<a href="#">8-800-777-777</a>
+		</div>
+		<div class="grid icon_wu wow animated fadeIn">
+			<img src="img/wu.png">
+			<a href="#">8-800-777-777</a>
+		</div>
+		<div class="grid icon_fb wow animated fadeIn">
+			<img src="img/fb.png">
+			<a href="#">https://www.facebook.com/Lorem</a>
+		</div>
+		<div class="grid icon_tw wow animated fadeIn">
+			<img src="img/tw.png">
+			<a href="#">https://www.twitter.com/Lorem</a>
+		</div>
+		<div class="grid icon_in wow animated fadeIn">
+			<img src="img/in.png">
+			<a href="#">https://www.instagram.com/Lorem</a>
+		</div>
+	</footer>
+	
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script> <!-- респонсив попап менеджер -->
+	<script src="libs/mixitup/mixitup.min.js"></script>  <!-- плитки галереи -->
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script> <!-- плагин навигации по Landing Page -->
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script> 
+	<!-- анимация элементов на странице -->
+	<script src="libs/wow/wow.min.js"></script>
+	<script>		new WOW().init();		</script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+	<script src="js/common.js"></script>
+</body>
 </html>

@@ -1,0 +1,544 @@
+@media (min-width : 1200px) {
+	.icon_vb img,
+	.icon_wu img,
+	.icon_fb img,
+	.icon_tw img,
+	.icon_in img {
+		margin-left: 35%;
+		width: 23%;
+		max-width: 50%;
+	}
+	.icon_fb a,
+	.icon_tw a,
+	.icon_in a {
+	  	width: 100%;
+	  	padding-top: 45px;
+	  	padding-left: 10px;
+	  	font-size: 1.2vw;
+	  	color: white;
+	}
+	.icon_vb a,
+	.icon_wu a {
+	  	width: 100%;
+	  	padding-top: 40px;
+	  	padding-left: 30px;
+	  	font-size: 2.5vw;
+	 }
+	 #submit1 {
+	  	background: black;
+	  	color: white;
+	  	width: 50%;
+	  	margin-left: 90px;
+	}
+}
+
+
+@media (min-width : 992px) and (max-width : 1199px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media (min-width : 768px) and (max-width : 991px) {
+	.keyboard_1 {
+	  	width: 50%;
+	  	}
+	.mouse_1 {
+	  	width: 13%;
+	 }
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 480px)  and (max-width : 767px) {
+	.site_name h1 {
+		font-size: 11vw;
+	}
+	.site_name h1:nth-child(1) { 
+		margin-left: 0px;
+	}
+
+	.discription {
+  		font-size: 4vw;
+  	}
+  	.menu_btn {
+  		left: 80%;
+  		margin-top: 30px;
+  	}
+  	.description_blog  h1 {
+	  	padding-top: 20px;
+	  	font-size: 6vw;
+	  	text-align: center;
+
+	}
+	.description_blog  p {
+	  	font-size: 2.5vw;
+	  	text-align: center;
+	  	padding: 10px 30px;
+	}
+	.portfolio-section {
+  		grid-template-columns: repeat(2, 1fr);
+    }
+    .post h2 {
+	  	color: black;
+	  	text-align: center;
+	  	font-size: 3.3vw;
+	}
+	.post p  {
+	  	padding: 0 10px;
+	  	font-size: 2vw;
+	  	color: white;
+	}
+	.post button {
+		width: 60%;
+		font-size: 2.2vw;
+		margin: 20px 0 20px 20%; 
+	}
+    .contacts h1 {
+	  	padding-top: 20px;
+	  	font-size: 5vw;
+	}
+	.contacts p {
+	  	font-size: 2.3vw;
+	}
+	.form_box {
+		margin-top: 15vh;
+  		grid-column: 2 / 10;
+  		height: 44vh;
+  	}	
+	.form_inputs input {
+  		font-size: 1.5vw;
+	}
+	textarea {
+		font-size: 1.5vw;
+	}
+	.keyboard_1 {
+    	width: 60%;
+  	}
+	.mouse_1 {
+  		width: 13%;
+ 	}
+	.google_map {
+   		grid-column: 11 / 20;
+   		margin-top: 17vh;
+	}
+	#submit1 {
+  		font-size: 1.5vw;
+  		color: white;
+  		width: 80%;
+  		margin-left: 30px;
+	}
+    .icon_vb {
+		margin-top: 5vh;
+		height: 10vh;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.icon_wu {
+		margin-top: 5vh;
+		height: 10vh;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.icon_fb {
+		margin-top: 5vh;
+		height: 10vh;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.icon_tw {
+		margin-top: 5vh;
+		height: 10vh;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.icon_in {
+		margin-top: 5vh;
+		height: 10vh;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.icon_vb img,
+	.icon_wu img,
+	.icon_fb img,
+	.icon_tw img,
+	.icon_in img {
+		margin-left: 35%;
+		width: 38%;
+		max-width: 50%;
+	}
+	.icon_fb a,
+	.icon_tw a,
+	.icon_in a {
+		width: 100%;
+		padding-top: 20px;
+		padding-left: 0px;
+		font-size: 1.2vw;
+		color: white;
+	}
+	.icon_wu a {
+		width: 100%;
+		padding-top: 20px;
+		padding-left: 10px;
+		font-size: 3vw;
+		color: white;
+	}
+	.icon_vb a {
+		width: 100%;
+		padding-top: 22px;
+		padding-left: 10px;
+		font-size: 3vw;
+		color: white;
+	}
+	.menu_order_left h1,
+	.menu_order_right h1 {
+	  	color: white;
+	  	font-size: 6vw;
+	  	margin-left: 10px;
+	}
+	.menu_order_left h2,
+	.menu_order_right h2 {
+	  	font-size: 3.5vw;
+	  	margin-left: 10px;
+	}
+	.menu_order_left button,
+	.menu_order_right button {
+	  	left: 40%;
+	  	top: 20vh;
+	  	font-size: 2vw;
+	  	width: 20%;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media (min-width: 320px) and (max-width: 479px) {
+	.menu_btn {
+  		left: 80%;
+  		margin-top: 30px;
+  	}
+	.site_name h1:nth-child(1) {
+		left: 30px;
+ 		font-size: 18vw;
+ 		position: absolute;
+ 		margin-left: 0px;
+ 		top: -140px;
+ 	}
+ 	.site_name h1:nth-child(2) {
+ 		left: 30px;
+ 		top: 0px;
+ 		position: absolute;
+ 		font-size: 18vw;
+ 		margin-left: 0px;
+ 	}
+ 	.logo_site {
+		margin-top: 20px;
+		width: 100px;
+		height: 100px;
+	}
+	.discription {
+		left: 60px;
+		top: 140px;
+ 		position: absolute;
+ 		font-size: 3em;
+ 		display: inline-block;
+ 		width: 300px;
+	}
+	/*-------------------------------------------*/
+	.portfolio-section {
+  		grid-template-columns: repeat(1, 1fr);
+  		height: 150vh;
+    }
+    .portfolio-item {
+    	font-size: 8vw;
+    }
+    .menu_meat {
+    	
+    }
+    .picture1 {
+    	height: 16.66vh;
+    	animation-delay: 1s;
+    }
+    .picture2 {
+    	height: 16.66vh;
+    	animation-delay: 1.2s;
+    }
+    .picture3 {
+    	height: 16.66vh;
+    	animation-delay: 1.4s;
+    }
+    .picture4 {
+    	height: 16.66vh;
+    	animation-delay: 1.6s;
+    }
+    .picture5 {
+    	height: 16.66vh;
+    	animation-delay: 1.8s;
+    }
+    .picture6 {
+    	height: 16.66vh;
+    	animation-delay: 2s;
+    }
+    .menu_order_left {
+    	display: block;
+    	width: 100%;
+    	height: 50vh;
+    }
+    .menu_order_right {
+    	display: block;
+    	width: 100%;
+    	height: 50vh;
+    }
+    .menu_cost1 {
+	  	animation-delay: 1.2s;
+	  	animation-duration: 1.5s;
+	}
+	.menu_cost2 {
+	  	animation-delay: 1.7s;
+	  	animation-duration: 1.5s;
+	}
+	.menu_cost3 {
+	  	animation-delay: 2.2s;
+	  	animation-duration: 1.5s;
+	}
+	.menu_order_left h1,
+	.menu_order_right h1 {
+	  	color: white;
+	  	font-size: 6vw;
+	  	margin-left: 10px;
+	}
+	.menu_order_left h2,
+	.menu_order_right h2 {
+	  	font-size: 3.5vw;
+	  	margin-left: 10px;
+	}
+	.menu_order_left button,
+	.menu_order_right button {
+	  	left: 13%;
+	  	top: 60px;
+	  	font-size: 2.5vw;
+	  	width: 20%;
+	}
+
+    /*-------------------------------------------*/
+    .blog-posts {
+	  	height: 200vh;
+	  	width: 100%;
+
+	  	grid-template-columns: repeat(1, 1fr);
+	  
+	}
+	.description_blog {
+
+	  	height: 50vh;
+	  	grid-column: 1 / 4;
+	  
+
+	}
+	.description_blog  h1 {
+	  	padding-top: 20px;
+	  	font-size: 6vw;
+	  	text-align: center;
+
+	}
+	.description_blog  p {
+	  	font-size: 3.2vw;
+	  
+	  	padding: 10px 30px;
+	}
+	.post {
+	  	z-index: 25;
+	  	grid-template-columns: repeat(1, 1fr);
+	  	height: 50vh;
+	  	align-items: stretch;
+
+	}
+	.post_1 {
+
+	  	grid-column: 1;
+	}
+	.post_2 {
+
+	  	grid-column: 1;
+	}
+	.post_3 {
+
+	  	grid-column: 1;
+	}
+	.post h2 {
+	  	color: black;
+	  	text-align: center;
+	  	font-size: 6vw;
+	}
+	.post p  {
+	  	padding: 0 50px;
+	  	font-size: 4vw;
+	  	color: white;
+	}
+
+	.post button {
+	  	width: 40%;
+	  	height: 40px;
+	  	margin: 20px 0 20px 30%; 
+	  	font-size: 3vw;
+	  	background: black;
+	  	color: white;
+	}
+	
+	/*--------------------------------------------*/
+	.contacts {
+	  	height: 160vh;
+	  	width: 100%;
+	  	grid-template-columns: repeat(1, 1fr);
+	  	overflow: hidden;
+	  	background: black;
+	  	
+	}
+	.contacts h1 {
+	  	padding-top: 20px;
+	  	font-size: 6vw;
+	}
+	.contacts p {
+	  	margin-top: 3vh;
+	  	font-size: 3.3vw;
+	}
+	.contacts_text{
+	  	grid-column: 1;
+	  	height: 50vh;
+	  	color: white;
+	  	text-align: center;
+
+	}
+	.form_box{
+	  	grid-column: 1;
+	  	height: 50vh;
+	}
+	.form_inputs input {
+	  	margin-top: 1vh;
+	  	font-size: 4vw;
+	}
+	textarea {
+		margin-top: 1vh;
+  	  	font-size: 4vw;
+	}
+	#submit1 {
+		margin-top: 0;
+	  
+	  	height: 6vh;	
+	}
+	.keyboard_1 {
+	  	bottom: -50vh;
+	  	width: 80%;
+	  	right: -30%;
+	  	position: absolute;
+	  	z-index: 21;
+	}
+	.mouse_1 {
+	  	width: 15%;
+	  	left: 10%;
+	  	bottom: 10vh;
+	 	position: absolute;
+	  	z-index: 21;
+	}
+	.google_map {
+		grid-column: 1;
+		margin-top: 30px;
+		animation-delay: 1.5s;
+	}
+	.google_map iframe {
+	 	width: 100%; 
+	  	height: 50vh;
+	  	z-index: 22;
+	}
+	#submit1 {
+	 	background: black;
+	  	color: white;
+	  	width: 100%;
+	  	margin-left: 0;
+	}
+	footer {
+		height: 50vh;
+  		grid-template-columns: repeat(1, 1fr);
+	}
+	.icon_vb {
+		margin-top: 0;
+		padding-top: 10px;
+		height: 8vh;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.icon_wu {
+		margin-top: 0;
+		padding-top: 10px;
+		height: 8vh;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.icon_fb {
+		margin-top: 0;
+		padding-top: 10px;
+		height: 8vh;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.icon_tw {
+		margin-top: 0;
+		padding-top: 10px;
+		height: 8vh;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.icon_in {
+		margin-top: 0;
+		padding-top: 10px;
+		height: 8vh;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.icon_vb img,
+	.icon_wu img,
+	.icon_fb img,
+	.icon_tw img,
+	.icon_in img {
+		margin-left: 35%;
+		width: 20%;
+		grid-column: 1 / 2;
+	}
+	.icon_fb a,
+	.icon_tw a,
+	.icon_in a {
+	  	padding-top: 0px;
+	  	padding-left: 0px;
+	  	font-size: 3.5vw;
+	  	color: white;
+	  	grid-column: 2 / 4;
+	}
+	.icon_vb a,
+	.icon_wu a {
+	  	padding-top: 0px;
+	  	padding-left: 0px;
+	  	font-size: 6vw;
+	  	color: white;
+	  	margin-right: 40px;
+	  	grid-column: 2 / 4;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media (max-width : 319px) {
+	.menu_btn {
+  		left: 80%;
+  		margin-top: 30px;
+  
+	}
+	.site_name h1:nth-child(1) {
+		bottom: -70px;
+		left: 30px;
+ 		font-size: 18vw;
+ 		position: absolute;
+ 		margin-left: 0px;
+ 	}
+ 	.site_name h1:nth-child(2) {
+ 		top: 0px;
+ 		position: absolute;
+ 		font-size: 18vw;
+ 		margin-left: 0px;
+ 	}
+ 	.logo_site {
+		margin-top: 20px;
+		width: 90px;
+		height: 100px;
+	}
+	
+}
+
+
