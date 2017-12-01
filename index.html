@@ -413,16 +413,19 @@
 		<form class="form_box grid wow fadeInLeft animated" data-wow-offset="100"  data-wow-duration="1s">
 			<div class="form_inputs wow grid">
 
-				<input type="name" id="name1" placeholder="NAME :" data-validation-required-message="Please, enter your name correct">
+				<input type="name" id="name1" placeholder="NAME :">
 
-				<input type="number" id="phone1" placeholder="PHONE :" data-validation-number-message="Please, enter your phone correct">
+				<input type="number" id="phone1" placeholder="PHONE :">
 
-				<input type="email" id="email1" placeholder="E-MAIL :" data-validation-email-message="Please, enter your email correct">
+				<input type="email" id="email1" placeholder="E-MAIL :">
 
-				<textarea rows="5" cols="45" id="text1" placeholder="COMMENT :"></textarea>
+				<textarea id="text1" placeholder="COMMENT :"></textarea>
 
 				<br>
-				<input type="submit" id="submit1" value="SEND">				
+				<div id="form_buttons">
+					<input type="reset" id="reset_btn" value="CLEAR FORM" />
+					<input type="submit" id="submit1" value="SEND">	
+				</div>			
 			</div>	
 		</form>
 		<div class="grid google_map wow fadeInRight animated" data-wow-offset="10"  data-wow-duration="1s" data-wow-delay="1s">	

@@ -7,7 +7,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
-  overflow-x: hidden; 
+   
   position: relative;
   line-height: 1.42857;
   -webkit-font-smoothing: antialised; 
@@ -768,6 +768,7 @@ section,
   width: 40%;
   height: 40px;
   margin: 20px 0 20px 30%; 
+  padding: .1vh 0 .1vh 0;
   font-size: 1.3vw;
   background: black;
   border-radius: 20px;
@@ -813,20 +814,45 @@ section,
   z-index: 22;
   animation-delay: 1s;
 }
-#submit1 {
-  border-radius: 20px;
-  outline: none;
-}
-#submit1:hover {
-  opacity: 0.8;
-}
-.form_inputs input {
+#name1,
+#phone1,
+#email1 {
   color: #756654;
   margin-top: 2vh;
   font-size: 1.3vw;
   padding-left: 10px;
 }
+#form_buttons {
+  display: inline-block;
+  color: #fff;
+}
+#submit1 {
+  padding: .2vh 0 .2vh 0;
+  border-radius: 20px;
+  outline: none;
+  background: black;
+  color: white;
+  width: 30%;
+  margin-left: 15px;
+  float: right;
+  font-size: 1.2vw;
+}
+#reset_btn:hover,
+#submit1:hover {
+  opacity: 0.8;
+}
+#reset_btn {
+  padding: .2vh 0 .2vh 0;
+  float: left;
+  width: 30%;
+  background: black;
+  color: #fff;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1.2vw;
+}
 textarea {
+  resize: none;
   padding-left: 10px;
   color: #756654;
   margin-top: 2vh;
@@ -855,15 +881,10 @@ textarea {
   height: 38vh;
   z-index: 22;
 }
-#submit1 {
-  background: black;
-  color: white;
-  width: 60%;
-  margin-left: 45px;
-}
+
 footer {
   overflow: hidden;
-  z-index: 50;
+  z-index: 200;
   width: 100%;
   height: 27vh;
   background: #000;

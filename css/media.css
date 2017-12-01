@@ -24,17 +24,13 @@
 	  	padding-left: 30px;
 	  	font-size: 2.5vw;
 	 }
-	 #submit1 {
-	  	background: black;
-	  	color: white;
-	  	width: 50%;
-	  	margin-left: 90px;
-	}
+	 
 }
 
 
 @media (min-width : 992px) and (max-width : 1199px) {
-
+	#reset_btn {width: 45%;font-size: 1.6vw;}
+	#submit1 {width: 45%;font-size: 1.6vw;}
 }
 
 /* Medium Devices, Desktops */
@@ -45,6 +41,8 @@
 	.mouse_1 {
 	  	width: 13%;
 	 }
+	 #reset_btn {width: 45%;font-size: 1.8vw;}
+	#submit1 {width: 45%;font-size: 1.8vw;}
 }
 
 /* Small Devices, Tablets */
@@ -107,6 +105,9 @@
 	.form_inputs input {
   		font-size: 1.5vw;
 	}
+	#reset_btn {width: 45%;font-size: 2.3vw;}
+	#submit1 {width: 45%;font-size: 2.3vw;}
+
 	textarea {
 		font-size: 1.5vw;
 	}
@@ -120,13 +121,7 @@
    		grid-column: 11 / 20;
    		margin-top: 17vh;
 	}
-	#submit1 {
-  		font-size: 1.5vw;
-  		color: white;
-  		width: 80%;
-  		margin-left: 30px;
-	}
-    .icon_vb {
+	.icon_vb {
 		margin-top: 5vh;
 		height: 10vh;
 		grid-template-rows: repeat(2, 1fr);
@@ -406,18 +401,18 @@
 	  	grid-column: 1;
 	  	height: 50vh;
 	}
-	.form_inputs input {
+	#name1,
+	#phone1,
+	#email1 {
 	  	margin-top: 1vh;
 	  	font-size: 4vw;
 	}
+	#reset_btn {width: 45%;font-size: 4vw;}
+	#submit1 {width: 45%;font-size: 4vw;}
+
 	textarea {
 		margin-top: 1vh;
   	  	font-size: 4vw;
-	}
-	#submit1 {
-		margin-top: 0;
-	  
-	  	height: 6vh;	
 	}
 	.keyboard_1 {
 	  	bottom: -50vh;
@@ -442,12 +437,6 @@
 	 	width: 100%; 
 	  	height: 50vh;
 	  	z-index: 22;
-	}
-	#submit1 {
-	 	background: black;
-	  	color: white;
-	  	width: 100%;
-	  	margin-left: 0;
 	}
 	footer {
 		height: 50vh;
