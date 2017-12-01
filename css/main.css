@@ -813,6 +813,8 @@ section,
   color: black;
   z-index: 22;
   animation-delay: 1s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 #name1,
 #phone1,
@@ -836,6 +838,8 @@ section,
   margin-left: 15px;
   float: right;
   font-size: 1.2vw;
+  animation-delay: 3s;
+  animation-duration: 1s;
 }
 #reset_btn:hover,
 #submit1:hover {
@@ -850,6 +854,8 @@ section,
   border-radius: 20px;
   outline: none;
   font-size: 1.2vw;
+  animation-delay: 2.5s;
+  animation-duration: 1s;
 }
 textarea {
   resize: none;
@@ -875,11 +881,13 @@ textarea {
 .google_map {
    grid-column: 9 / 19;
    margin-top: 20px;
+   animation-delay: 2s;
 }
 .google_map iframe {
   width: 100%; 
   height: 38vh;
   z-index: 22;
+  opacity: 1;
 }
 
 footer {
