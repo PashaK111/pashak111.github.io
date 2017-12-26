@@ -1,0 +1,178 @@
+@media (min-width : 1200px) {
+
+}
+@media (min-width : 992px) and (max-width : 1199px) {
+	.socials_panel {
+		float: left;
+		display: inline-block;
+		left: 82%;
+		top: 100px;
+		position: fixed;
+		z-index: 1000;
+	}
+	.main_icecream img {
+	  	width: 68%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media (min-width : 768px) and (max-width : 991px) {
+	.socials_panel {
+	  	left: 80%;
+	  	top: 100px;
+	}
+	.main_icecream img {
+	  	width: 65%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 480px)  and (max-width : 767px) {
+}
+/* Extra Small Devices, Phones */
+@media (min-width: 320px) and (max-width: 479px) {
+	.adress_time h4 {
+	  font-family: 'Montserrat', sans-serif;
+	  color: white;
+	  padding-top: 0px; 
+	  position: relative;
+	  font-size: 1em;
+	  left: 10%; 
+	}
+	.menu_btn {
+		margin-top: 70px;
+	}
+	.socials_panel {
+	  float: left;
+	  display: inline-block;
+	  left: 85%;
+	  top: 80px;
+	  position: fixed;
+	  z-index: 1000;
+	}
+	.main_icecream img {
+	  	width: 60%;
+	}
+	.main_icecream {
+		left: 30%;
+		top: 28vh;
+	}
+	.logo_site {
+	  	left: 25%;
+	  	top: 90px;
+	}
+	.logo_site img {
+	    width: 70%;
+	}
+	.main_name {
+	  left: 15%;
+	  top: 50vh;
+	}
+	.main_name h3 {
+	  	font-size: 8vw;
+	}
+	.main_name h1 {
+	  	font-size: 12vw;
+	}
+	.main_button {
+	  	font-size: 1.5em;
+	}
+	.top_menu {
+	  	width: 50%;
+	}
+	.top_menu ul {
+	  	margin-top: 35vh;
+	}
+	.top_menu ul li a {
+	  	padding: 15px 0;
+	  	font-size: 6vw;
+	}
+	.try_it_section .first_block {
+		display: none;
+	}
+	.try_it_section .second_block {
+	  	width: 100%;
+	}
+	.try_it_1 h1 {
+	  	top: 5vh;
+	  	font-size: 8vw;
+	}
+	.try_it_1 h4 {
+	    top: 5vh;
+	    font-size: 6vw;
+	}
+	.try_it_1 p {
+	    top: 5vh;
+	    font-size: 4vw;
+	}
+	.try_it_1 a {
+	    top: 10vh;
+	}
+	.try_it_2_name h3 {
+	    font-size: 8vw;
+	}
+	.try_it_2_name h1 {
+	    font-size: 12vw;
+	}
+
+	.come_in_section .first_block {
+	    width: 100%;
+	}
+	.come_in_section .second_block {
+	    display: none;
+	}
+	.cakes_section .first_block {
+	    display: none;
+	}
+	.cakes_section .second_block {
+	    width: 100%;
+	}
+	.ice_zz_1 img {
+	    width: 35%;
+	    left: 5%;
+	    top: 35vh;
+	}
+	.ice_zz_2 img {
+	  width: 28%;
+	  left: 11%;
+	  top: -20vh;
+	}
+	.ice_zz_3 img {
+	  top: -10vh;
+	  width: 55%;
+	  left: 27%;
+	}
+	.ice_zz_4 img {
+	  width: 30%;
+	  left: 66%;
+	  top: 40vh;
+	}
+	.ice_zz_5 img {
+	  width: 20%;
+	  left: 72%;
+	  top: -24vh;
+	}
+	.slider .bd {
+		width: 100%;
+		left: 35%;
+	}
+	.slider .bd li img {
+	  width: 150%;
+	  top: -22px;
+	  position: relative;
+	  background-position: center;
+	  background-size: cover;
+	}
+	.slider .prev .arrow {
+	  right: 0px;
+	  top: -10vh;
+	}
+	.slider .next .arrow {
+	  left: 0px;
+	  top: -10vh;
+	 }
+}
+/* Custom, iPhone Retina */
+@media (max-width : 319px) {
+}
+
