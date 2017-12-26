@@ -561,14 +561,6 @@ input::placeholder {
   left: 5%; 
   float: left;
 }
-.socials_panel_2 {
-  position: relative;
-  left: 53%;
-  display: inline-block;
-}
-.socials_panel_2 img {
-   width: 6%;
-}
             
 /*--------------------------ШАБЛОН---------------------------------*/
 
