@@ -94,19 +94,19 @@
 	  	width: 100%;
 	}
 	.try_it_1 h1 {
-	  	top: 5vh;
+	  	top: 8vh;
 	  	font-size: 8vw;
 	}
 	.try_it_1 h4 {
-	    top: 5vh;
+	    top: 10vh;
 	    font-size: 6vw;
 	}
 	.try_it_1 p {
-	    top: 5vh;
+	    top: 10vh;
 	    font-size: 4vw;
 	}
 	.try_it_1 a {
-	    top: 10vh;
+	    top: 15vh;
 	}
 	.try_it_2_name h3 {
 	    font-size: 8vw;
@@ -152,25 +152,110 @@
 	  left: 72%;
 	  top: -24vh;
 	}
+	footer {
+	  height: 120vh;
+	}
+	.portfolio_head h1 {
+	  font-size: 5vw;
+	  font-weight: bold;
+	}
 	.slider .bd {
-		width: 100%;
-		left: 35%;
+		width: 112%;
+		left: -35%;
 	}
 	.slider .bd li img {
 	  width: 150%;
+	  height: 150%;
 	  top: -22px;
+	  right: 20%;
 	  position: relative;
-	  background-position: center;
-	  background-size: cover;
+	 
 	}
 	.slider .prev .arrow {
 	  right: 0px;
-	  top: -10vh;
+	  top: 0vh;
 	}
 	.slider .next .arrow {
 	  left: 0px;
-	  top: -10vh;
+	  top: 0vh;
 	 }
+	
+	 .main_contacts {
+	  height: 55vh;
+	  text-align: left;
+	}
+	.main_contacts h1 {
+	  font-size: 5vw;
+	}
+	.main_contacts h3 {
+	  font-size: 4vw;
+	}
+	.contact_1 {
+	  height: 40%;
+	  width: 30%;
+	  display: block;
+	  top: 0;
+	  left: 5%;
+	  position: relative;
+	}
+	.contact_2 {
+	  height: 40%;
+	  width: 30%;
+	  display: block;
+	  top: 0;
+	  left: 5%;
+	  position: relative;
+	}
+	.contact_3 {
+	  float: left;
+	  height: 40%;
+	  width: 30%;
+	  display: block;
+	  top: 0;
+	  left: 5%;
+	  position: relative;
+	}
+	.contact_4 {
+	  float: left;
+	  height: 50%;
+	  width: 100%;
+	  display: block;
+	  top: 0;
+	  position: relative;
+	}
+	.contact_4 input {
+	  width: 100%;
+	  height: 40px;
+	  font-size: 5vw;
+	  padding-left: 10px;
+	  background: none;
+	  border: 2px solid black;
+	  color: black;
+	  outline: none;
+	}
+	.contact_4 h1 {
+		position: relative;
+		left: 22%;
+	}
+	.contact_4 button {
+	  margin-top: 5px;
+	  width: 100%;
+	  font-size: 4vw;
+	}
+	#main_contacts {
+	  margin-top: 5px;
+	  padding-left: 33%;
+	  top: -30px;
+	  height: 10%;
+	}
+	#main_contacts p {
+	  display: block;
+	  font-size: 4vw;
+	  position: relative;
+	  
+	  float: left;
+	}
+
 }
 /* Custom, iPhone Retina */
 @media (max-width : 319px) {

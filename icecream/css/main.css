@@ -555,7 +555,7 @@ input::placeholder {
   width: 100%;
 }
 #main_contacts p {
-  display: inline-block;
+  display: block;
   font-size: 1.5vw;
   position: relative;
   left: 5%; 
