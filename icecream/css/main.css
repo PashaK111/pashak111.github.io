@@ -32,17 +32,16 @@ header {
   font-family: 'Montserrat', sans-serif;
   color: white;
   align-content: center;
+  display: inline-block;
   padding-top: 10px; 
   position: relative;
+  margin-left: 10px;
   font-size: 1.2em;
-  left: 35%;
-}
-.nav_panel {
-  display: inline-block;
+  left: 30%;
 }
 .menu_btn {
   background: none;
-  margin-top: 80px;
+  margin-top: 70px;
   margin-right: 20%;
   float: left;
   width: 34px;
@@ -140,38 +139,38 @@ header {
 }
 .logo_site {
   position: absolute;
-  left: 40%;
-  top: 90px;
+  left: 35%;
+  top: 80px;
   z-index: 10;
 }
 .logo_site img {
-    width: 50%;
+  width: 50%;
 }
 .socials_panel {
   float: left;
   display: inline-block;
   left: 85%;
-  top: 100px;
+  top: 85px;
   position: fixed;
   z-index: 1000;
 }
 .socials_panel img {
-   max-width: 35px;
-   min-width: 20px;
+  max-width: 35px;
+  min-width: 20px;
 }
 .main_icecream img {
   width: 70%;
 }
 .main_icecream {
  position: absolute;
- left: 45%;
+ left: 40%;
  top: 28vh;
  z-index: 9;
 }
 .main_name {
   position: absolute;
   left: 30%;
-  top: 55vh;
+  top: 50vh;
   z-index: 11;
   color: black;
   text-align: center;

@@ -65,8 +65,8 @@
 	    width: 70%;
 	}
 	.main_name {
-	  left: 15%;
-	  top: 50vh;
+	  left: 10%;
+	  top: 45vh;
 	}
 	.main_name h3 {
 	  	font-size: 8vw;
@@ -195,7 +195,7 @@
 	  width: 30%;
 	  display: block;
 	  top: 0;
-	  left: 5%;
+	  left: 10px;
 	  position: relative;
 	}
 	.contact_2 {
@@ -203,16 +203,16 @@
 	  width: 30%;
 	  display: block;
 	  top: 0;
-	  left: 5%;
+	  left: 20px;
 	  position: relative;
 	}
 	.contact_3 {
 	  float: left;
 	  height: 40%;
-	  width: 30%;
+	  width: 40%;
 	  display: block;
 	  top: 0;
-	  left: 5%;
+	  left: 20px;
 	  position: relative;
 	}
 	.contact_4 {
@@ -235,7 +235,7 @@
 	}
 	.contact_4 h1 {
 		position: relative;
-		left: 22%;
+		left: 15%;
 	}
 	.contact_4 button {
 	  margin-top: 5px;
@@ -251,9 +251,6 @@
 	#main_contacts p {
 	  display: block;
 	  font-size: 4vw;
-	  position: relative;
-	  
-	  float: left;
 	}
 
 }
