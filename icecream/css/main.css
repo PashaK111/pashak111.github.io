@@ -27,9 +27,9 @@ header {
   background: black;
   top: 0px;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;
 }
 .adress_time h4 {
-  font-family: 'Montserrat', sans-serif;
   color: white;
   align-content: center;
   display: inline-block;
